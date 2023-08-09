@@ -6,6 +6,8 @@
   font-weight: 700;
   text-align: center;
   background-color: goldenrod;
+  display: flex; 
+  flex-direction: column;
 }
 
 .header {
