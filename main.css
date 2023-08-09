@@ -1,19 +1,35 @@
+
+body{
+  text-align: center;
+}
+
 .main {
-    padding: 100px;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    text-align: center;
-    background-color: goldenrod;
+  padding: 90px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  text-align: center;
+  background-color: goldenrod;
+  display: flex; 
+  flex-direction: column;
 }
 
 .header {
-    padding: 100px 0;
-    font-size: 48px;
-    font-weight: 700;
-    color: beige;
-    font-family: sans-serif;
-    background-color: darkseagreen;
-    text-align: center;
+  padding: 80px 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(4, 98, 57);
+  font-family: sans-serif;
+  background-color: darkseagreen;
+  text-align: center;
+}
+.footer {
+  padding: 90px 100px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  background-color: #1abf59;
+  color: aliceblue;
 }
